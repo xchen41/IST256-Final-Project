@@ -1,0 +1,24 @@
+import requests
+import json 
+
+url = 'https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key=1iVtjhPaaz47KC0WNWYPxklL3r8Fg7ss0mNxF56g&'
+response = requests.get(url)
+response
+
+    
+
+steps:
+# Import all APIs 
+# Function: identify the college name 
+# Prompt use to input college name 
+#     If college name is NOT identified, user is then prompted to enter the zipcode 
+#     If the college name IS identified and associated w a geolocation, then the next step triggers
+# User is asked if they want to add another school to the list (Yes/no) 
+#     If yes, loop to beginning to add another school 
+#     If no, colleges are listed with relevant info 
+
+    
+# Function: identify the college name 
+# Function: add the school to a list 
+# Function: show the data frame of the college tuition, ranking, 
+
